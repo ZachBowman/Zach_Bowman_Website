@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+<title>Zach Bowman - The Official Site</title>
+<meta name="description" content="">
+<meta name="keywords" content="Zach, Bowman, Blockhead, Boxland, games, indie">
+<link rel="stylesheet" type="text/css" href="zb.css">
+</head>
+
+<body>
+
+  <script src = "js/jquery-2.1.1.min.js"></script>
+  <script src = "js/nav.js"></script>
+  <script src = "js/links.js"></script>
+
+  <!div class = "layout">
+
+    <div class = "logo">ZACH BOWMAN.COM</div>
+
+    <div id = "nav_container">
+      <nav>
+        <div class = "menu_column">
+          <div class = "menu_item" id = "nav_about">ABOUT ME</div>
+          <div class = "menu_item" id = "nav_gamedev">GAME DEVELOPMENT</div>
+          <div class = "menu_item" id = "nav_gamedesign">GAME DESIGN</div>
+        </div>
+
+        <div class = "menu_column">
+          <div class = "menu_item" id = "nav_webdev">WEB DEVELOPMENT</div>
+          <div class = "menu_item" id = "nav_webdesign">WEB DESIGN</div>
+          <div class = "menu_item" id = "nav_levels">LEVEL DESIGN</div>
+        </div>
+
+        <div class = "menu_column">
+          <div class = "menu_item" id = "nav_music">SOUNDTRACKS</div>
+          <div class = "menu_item" id = "nav_contact">CONTACT</div>
+        </div>
+      </nav>
+
+      <div id = "links">
+        <div class = "icon_row">
+          <div class = "icon_link" id = "icon_email">
+            <img src = "images/icon_mail.png" class = "icon_image">
+          </div>
+          <div class = "icon_link" id = "icon_github">
+            <img src = "images/icon_github.png" class = "icon_image">
+          </div>
+        </div>
+
+        <div class = "icon_row">
+          <div class = "icon_link" id = "icon_linkedin">
+            <img src = "images/icon_linkedin.png" class = "icon_image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="content">
+    <div class="stripe">Game Development</div>
+
+    <div class="two_panel">
+      <div class="right_panel">
+        <a href="images/blockhead1.png" target=new><img src="images/blockhead1_small.png" border=0></a>
+      </div>
+      <div>
+        <img src="images/blockhead_250_trans.png"><br>
+        <br>
+        Aside from a few XBOX-specific code snippets, everything in Blockhead was programmed
+        entirely on my own, from the animations to the game logic to the menu screens.
+        Blockhead is the most comprehensive showcase of my game development talents thus far.
+      </div>
+    </div>
+
+    <div class = "two_panel">
+      <div class = "right_panel">
+        <img src="images/particle1.png"><br>
+        <a href="images/particle3_large.png"><img src="images/particle3.png"></a>
+      </div>
+      <div>
+        <div class = "stripe2">Particle System</div><br>
+        <br>
+        One of the most useful graphical tools I built for Blockhead is a comprehensive 2D
+        particle system.  I've used the functions to realistically simulate almost anything,
+        including fire, steam, smoke, fireworks, laser beams and explosions just by tweaking the
+        values and supplying a few images as a base.  The programmer can adjust the amount, speed,
+        direction, spread, transparency, and fade speed of the individual particles, and
+        define preset effects to be used as shortcuts.  It was programmed in C#
+        for XNA Game Studio, and can be easily ported to most other platforms.<br>
+        <br>
+        The particle engine has already gotten some significant upgrades as I implement it into
+        my new adventure game, Boxland.  Since the game engine keeps track of the world in 3D,
+        the particles now fly around inside the world, interacting with it's architecture and
+        objects, rather than just drawn on top of it.
+      </div>
+    </div>
+    <br>
+
+    <div class="two_panel">
+      <div class="right_panel">
+        <a href="images/boxland5.png" target=new><img src="images/boxland5_small.png"></a><br>
+        <a href="images/boxland4.png" target=new><img src="images/boxland4_small.png" border=0></a>
+      </div>
+      <div>
+        <img src="images/boxland_logo2.png"><br>
+        The Boxland engine represents the first evolutionary step in a new game engine I'm building from scratch.
+        On the surface, the game is tile-based and from a 2D overhead perspective, but the game world is actually
+        running in 3D.  All of the surfaces are kept track of in terms of brushes and textures (like an early Quake
+        or Half-Life engine), and the characters and objects have three-dimensional locations and physics.<br>
+        <br>
+        The advantage to creating my own gameplay engine is that I will be able to create environments that are not
+        only completely destructible, but with a level of detail and interactivity that we have rarely seen in
+        games before.  Subsequent projects built on this code will include 3D graphics, map editor compatibility,
+        and support for any game style, from first-person shooter to role-playing.
+      </div>
+    </div>
+    <br>
+
+    <div class = "stripe2">Dreamscape</div><br>
+    <br>
+    Closely tied to the game engine outlined above is a companion tool called Dreamscape.
+    Dreamscape will be a map editor that will allow the designer to incorporate randomly
+    generated elements into the game's design, creating an experience that changes each
+    time a new game is started; the ultimate in replay value.  This first version features
+    game-created details would such as randomly placed enemies, lights and wall decals. 
+    Subsequent versions will be complex enough to randomly generate complete areas of the
+    game world using parameters set by the developer.  Eventually, my goal is to achieve a
+    system in which large portions of the game are created by the game itself.  In essence,
+    we would be teaching a game how to make new games.
+  </div>
+<!/div>
+
+</body>
+</html>

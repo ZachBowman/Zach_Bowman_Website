@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Zach Bowman - Developer, Designer</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="Zach, Bowman, Blockhead, Boxland, games, indie">
+  <link rel="stylesheet" type="text/css" href="zb.css">
+</head>
+
+<body>
+
+  <script src = "js/jquery-2.1.1.min.js"></script>
+  <script src = "js/nav.js"></script>
+  <script src = "js/links.js"></script>
+  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+  <script src = "js/journal.js"></script>
+
+  <div class = "logo">ZACH BOWMAN.COM</div>
+
+  <div id = "nav_container">
+    <nav>
+      <div class = "menu_column">
+        <div class = "menu_item" id = "nav_about">ABOUT ME</div>
+        <div class = "menu_item" id = "nav_gamedev">GAME DEVELOPMENT</div>
+        <div class = "menu_item" id = "nav_gamedesign">GAME DESIGN</div>
+      </div>
+
+      <div class = "menu_column">
+        <div class = "menu_item" id = "nav_webdev">WEB DEVELOPMENT</div>
+        <div class = "menu_item" id = "nav_webdesign">WEB DESIGN</div>
+        <div class = "menu_item" id = "nav_levels">LEVEL DESIGN</div>
+      </div>
+
+      <div class = "menu_column">
+        <div class = "menu_item" id = "nav_music">SOUNDTRACKS</div>
+        <div class = "menu_item" id = "nav_contact">CONTACT</div>
+      </div>
+    </nav>
+
+    <div id = "links">
+      <div class = "icon_row">
+        <div class = "icon_link" id = "icon_email">
+          <img src = "images/icon_mail.png" class = "icon_image">
+        </div>
+        <div class = "icon_link" id = "icon_github">
+          <img src = "images/icon_github.png" class = "icon_image">
+        </div>
+      </div>
+
+      <div class = "icon_row">
+        <div class = "icon_link" id = "icon_linkedin">
+          <img src = "images/icon_linkedin.png" class = "icon_image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "content" ng-app = "">
+    <input id = "login_button" type = "button" value = "System Access"></input>
+
+    <div id = "login_window">
+      <form>
+        <input id = "login_button2"  type = "button"   value = "Attempt"></input>
+        <input id = "login_username" class = "textbox" type = "text" placeholder = "Identification"></input><br>
+        <input id = "login_password" class = "textbox" type = "text" placeholder = "Security"></input>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
