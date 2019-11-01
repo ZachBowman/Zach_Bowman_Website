@@ -8,22 +8,23 @@ $(document).ready (function ()
 
   $(".icon_link").hover (function ()
     {
-    var size = parseInt ($(this).css ("width"));
-    size -= 2;
-    size = size.toString() + "px";
+    //var size = parseInt ($(this).css ("width"));
+    //size -= 2;
+    //size = size.toString() + "px";
     $(this).css ("border", "solid 1px rgb(255, 0, 0)");
-    $(this).css ("width", size);
-    $(this).css ("height", size);
+    //$(this).css ("width", size);
+    //$(this).css ("height", size);
     $(this).css ("background-color", "rgb(128, 0, 0)");
     },
   function ()
     {
-    var size = parseInt ($(this).css ("width"));
-    size += 2;
-    size = size.toString() + "px";
-    $(this).css ("border", "none");
-    $(this).css ("width", size);
-    $(this).css ("height", size);
+    //var size = parseInt ($(this).css ("width"));
+    //size += 2;
+    //size = size.toString() + "px";
+    //$(this).css ("border", "none");
+    $(this).css ("border", "solid 1px rgb(96, 0, 0)");
+    //$(this).css ("width", size);
+    //$(this).css ("height", size);
     $(this).css ("background-color", "rgb(96, 0, 0)");
     });
 

@@ -5,214 +5,57 @@
   <title>Zach Bowman - Developer, Designer</title>
   <meta name="description" content="">
   <meta name="keywords" content="Zach, Bowman, Blockhead, Boxland, games, indie">
-  <link rel="stylesheet" type="text/css" href="zb.css">
+  <link rel="stylesheet" type="text/css" href="desktop.css">
+  <link rel="stylesheet" type="text/css" href="phone.css">
 </head>
 
-<body>
+<body ng-app = "zachbowman_site">
 
+  <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   <script src = "js/jquery-2.1.1.min.js"></script>
   <script src = "js/nav.js"></script>
   <script src = "js/links.js"></script>
+  <script src = "angular.js"></script>
 
-  <div class = "logo">ZACH BOWMAN.COM</div>
+  <div class = "layout">
 
-  <div id = "nav_container">
-    <nav>
-      <div class = "menu_column">
-        <div class = "menu_item" id = "nav_about">ABOUT ME</div>
-        <div class = "menu_item" id = "nav_gamedev">GAME DEVELOPMENT</div>
-        <div class = "menu_item" id = "nav_gamedesign">GAME DESIGN</div>
-      </div>
-
-      <div class = "menu_column">
-        <div class = "menu_item" id = "nav_webdev">WEB DEVELOPMENT</div>
-        <div class = "menu_item" id = "nav_webdesign">WEB DESIGN</div>
-        <div class = "menu_item" id = "nav_levels">LEVEL DESIGN</div>
-      </div>
-
-      <div class = "menu_column">
-        <div class = "menu_item" id = "nav_music">SOUNDTRACKS</div>
-        <div class = "menu_item" id = "nav_contact">CONTACT</div>
-      </div>
-    </nav>
-
-    <div id = "links">
-      <div class = "icon_row">
-        <div class = "icon_link" id = "icon_email">
-          <img src = "images/icon_mail.png" class = "icon_image">
+    <div class = "left_column">
+      <div class = "logo">ZACH BOWMAN<span class = "red_dot">.</span>COM</div>
+    
+      <nav>
+        <div class = "menu_column">
+          <a href = "#about"><div class = "menu_item" id = "nav_about">ABOUT ME</div></a>
+          <a href = "#game_development"><div class = "menu_item" id = "nav_gamedev">GAME DEVELOPMENT</div></a>
+          <a href = "#game_design"><div class = "menu_item" id = "nav_gamedesign">GAME DESIGN</div></a>
         </div>
-        <div class = "icon_link" id = "icon_github">
-          <img src = "images/icon_github.png" class = "icon_image">
+        <div class = "menu_column">
+          <a href = "#web_development"><div class = "menu_item" id = "nav_webdev">WEB DEVELOPMENT</div></a>
+          <a href = "#web_design"><div class = "menu_item" id = "nav_webdesign">WEB DESIGN</div></a>          
+          <!a href = "#soundtracks"><!div class = "menu_item" id = "nav_music"><!/div><!/a>
+          <a href = "mailto:zachbowman0@gmail.com"><div class = "menu_item" id = "nav_contact">CONTACT</div></a>
         </div>
-      </div>
-
-      <div class = "icon_row">
-        <div class = "icon_link" id = "icon_linkedin">
-          <img src = "images/icon_linkedin.png" class = "icon_image">
+      </nav>
+    
+      <div id = "links">
+        <div class = "icon_row">
+          <div class = "icon_link" id = "icon_email">
+            <img src = "images/icon_mail.png" class = "icon_image">
+          </div>
+          <div class = "icon_link" id = "icon_github">
+            <img src = "images/icon_github.png" class = "icon_image">
+          </div>
+          <div class = "icon_link" id = "icon_linkedin">
+            <img src = "images/icon_linkedin.png" class = "icon_image">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="content">
-    <div class = "two_panel">
-      <div class="left_panel">
-        <img src="images/magnetrain_station1_small.png">
-      </div>
-
-      <div>
-        I'm an independent web developer, web designer, game developer, and multimedia artist with ambitious ideas
-        and several projects in construction.  My skills are versatile, as I've spent time working on a variety of
-        programming languages and game engines, as well as web and music projects.  I'm available to hire for
-        full-time employement, contracts, and freelance work.  Take a look at my portfolio, then
-        <a href="mailto:zachbowman0@gmail.com">contact me</a> and we'll to talk about working on your next project.
-      </div>
-    </div>
-
-    <div class = "stripe">About Me</div>
-
-    Designing and developing innovative games has been a passion of mine since 1995.  I majored in computer science at Millersville
-    University, and I've continued to constantly learn new tools, skills, and engines since.  In 2006, I co-founded Nightmare Games
-    (now Cricketheads) with my best friend and long-time creative partner. I've been hard at work creating the next generation of
-    innovative games since.<br>
-    <br>
-    I started working with the web and HTML in the late 90's to support my other projects, but over time, web design and development
-    have become an entirely new pursuit for me.  Since those early pages, I've learned CSS, Javascript, jQuery, and a host of other cool
-    technologies.  I intend to bridge the gap between these two worlds by producing awe-inspiring web games.<br>
-    <br>
-    The projects I'm creating today aren't just self-contained ideas.  These are the foundations and building blocks of larger,
-    more complex systems I've planned for the future.
-    My goal is to create unique and immersive worlds to explore and then bring as many people into those worlds as possible.<br>
-    <br>
-    <br>
-    <div class = "stripe2">My Skills</div><br>
-
-    I'm experienced in the following languages and software:
-
-    <div>
-      <div class="skill_column">
-        <span class="blue">Programming</span><br>
-        C#<br>
-        C++<br>
-        HTML5<br>
-        Javascript<br>
-        CSS3<br>
-        Microsoft Visual Studio<br>
-        XNA Game Studio<br>
-        Gamemaker<br>
-        jQuery<br>
-        Node.js<br>
-        Lua<br>
-        Grunt<br>
-        Mocha & Chai<br>
-        3D Game Studio<br>
-        Handlebars<br>
-        <br>
-      </div>
-      <div class="skill_column">
-        <span class="blue">Graphic Design</span><br>
-        Photoshop<br>
-        Paint Shop Pro<br>
-        Gimp<br>
-        <br>
-        <span class="blue">3D Modeling</span><br>
-        3Ds Max<br>
-        <br>
-        <span class="blue">3D Level Design</span><br>
-        Hammer (Source Engine)<br>
-        Worldcraft (Gold Source)<br>
-        Radiant (idTech Engines)<br>
-        BSP (idTech Engines)<br>
-        <br>
-      </div>
-      <div class = "skill_column">
-        <span class="blue">Music & Sound</span><br>
-        Sony Acid Pro<br>
-        Cool Edit<br>
-        Logic Pro<br>
-        <br>
-        <span class="blue">Video</span><br>
-        Sony Vegas<br>
-      </div>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="stripe2">Completed Projects</div><br>
-    <br>
-
-    <div class = "two_panel">
-      <div class = "right_panel">
-        <a href = "http://burningfreak.com/zb/freelance/wordwars/" target = new><img src = "images/wordwars1_small.png"></a><br>
-        <a href = "http://burningfreak.com/zb/freelance/wordwars/" target = new><img src = "images/wordwars2_small.png"></a>
-      </div>
-      <div>
-        <span class = "title">Word Wars</span><br>
-        <br>
-        This was an idea for a supercharged, scrabble-like spinoff game I pitched, and then assembled a team to help develop.  Working together,
-        we used jQuery UI, a dictionary API, and data binding we wrote ourselves to make an html web page into a fully interactive board
-        game (using no game engines or canvas tags).  It supports up to four players, and features multiple board shapes, dictionary
-        definitions, and a fully functional validation and scoring system.
-      </div>
-    </div>
-
-    <div class = "two_panel">
-      <div class="right_panel">
-        <a href = "http://flappy-mappy.herokuapp.com" target = new><img src = "images/flappy_mappy1_small.png"></a><br>
-        <a href = "http://flappy-mappy.herokuapp.com" target = new><img src = "images/flappy_mappy2_small.png"></a>
-      </div>
-      <div>
-        <a href = "http://flappy-mappy.herokuapp.com" target = new><img src = "images/flappy_logo2.png"></a><br>
-        <br>
-        This browser-based web application uses the Google Maps and Google places APIs to plot a driving route.  Then, it shows the
-        user places of interest, restaraunts, gas, and other activities on that path.  I helped design and program this using
-        Javascript, jQuery, CSS, and HTML as part of a four-person team.
-      </div>
-    </div>
-
-    <div class = "two_panel_last">
-      <div class="right_panel">
-        <a href="http://www.burningfreak.com/nightmare/blockhead.html" target=new><img src="images/blockhead3_small.png"></a>
-      </div>
-      <div>
-        <a href="http://www.burningfreak.com/nightmare/blockhead.html" target=new><img src="images/blockhead_250_trans.png"></a><br>
-        <br>
-        I programmed this puzzle game in XNA Game Studio using C#, and ported it to Windows, Xbox 360, and Windows Phone 7.
-        All of the design, programming, graphics, sound, and music elements were created by me.  It's currently available
-        for PC as a free download, with a 3D sequel being planned for the Unity engine.
-      </div>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class = "stripe2">In Production</div><br>
-
-    <div class = "two_panel">
-      <div class="right_panel">
-        <a href="images/boxland4.png" target=new><img src="images/boxland4_small.png"></a>
-      </div>
-      <div>
-        <img src="images/boxland_logo.png"><br>
-        Boxland is an action / puzzle / adventure game project on which I'm the lead designer and programmer.
-        The game takes inspiration from classic Nintendo games like Zelda, Metroid and Megaman, but with
-        high-resolution graphics, refreshing twists and modern gameplay features.  Boxland, inc. will be
-        initially available for the PC through Steam, with potential ports for Xbox Live, PSN and iOS.
-      </div>
-    </div>
-
-    <div class = "two_panel_last">
-      <div class="right_panel">
-        <a href="images/wobbly_piss1.png" target=new><img src="images/wobbly_piss1_small.png"></a>
-      </div>
-      <div>
-        <span class = "title">HTML5 Games</span><br><br>
-        Between larger projects, I'm currently developing a series of browser-based minigames in HTML5 and Javascript.
-        The goal is to start small and push the limits of Javascript in terms of graphics, gameplay complexity and
-        user interface to test how far it can take us.  Our first minigame is near completion, with several more planned,
-        including a port of the original Blockhead.
-      </div>
+    <div class = "center_column">
+      <div ng-view class = "content"></div>
     </div>
 
   </div>
+
 </body>
 </HTML>

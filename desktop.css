@@ -1,0 +1,417 @@
+@font-face
+  {
+  font-family: 'avenir';
+  src: url('AvenirLTStd-Roman.woff') format('woff'),
+       url('AvenirLTStd-Roman.ttf') format('truetype');
+  }
+
+::-webkit-input-placeholder
+  {
+  color: #00CCFF;
+  }
+
+:-moz-placeholder  /* Firefox 18- */
+  {
+  color: #00CCFF;  
+  }
+
+::-moz-placeholder  /* Firefox 19+ */
+  {
+  color: #00CCFF;  
+  }
+
+:-ms-input-placeholder
+  {
+  color: #00CCFF;  
+  }
+
+body
+  {
+  background-color: #333333;
+  background: url("images/cement_dark.png");
+  font-family: verdana, sans-serif;
+  }
+
+a:link
+  {
+  color: rgb(0, 204, 255);
+  text-decoration: none;
+  }
+
+a:visited
+  {
+  color: rgb(0, 204, 255);
+  text-decoration: none;
+  }
+
+a:hover
+  {
+  color: white;
+  text-decoration: none;
+  }
+
+a:active
+  {
+  color: white;
+  text-decoration: none;
+  }
+  
+.layout
+  {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+  
+.left_column
+  {
+  float: left;
+  width: 300px;
+  margin-right: 30px;
+  }
+  
+.center_column
+  {
+  }
+
+.logo
+  {
+  font-family: avenir, sans-serif;
+  font-weight: 500;
+  color: white;
+  //text-align: center;
+  background-color: black;
+  padding: 25px;
+  margin-bottom: 30px;
+  letter-spacing: 12px;
+  line-height: 1.5;
+  font-size: 13pt;
+  border-radius: 15px;
+  border: solid 1px rgb(160, 160, 160);
+  box-shadow: 2px 2px 1px rgb(24, 24, 24);
+  }
+
+nav
+  {
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+  border-radius: 15px;
+  border: solid 1px rgb(160, 160, 160);
+  box-shadow: 2px 2px 1px rgb(24, 24, 24);
+  margin-bottom: 30px;
+  }
+
+.menu_column
+  {
+  vertical-align: top;
+  }
+
+.menu_item
+  {
+  border: solid 1px rgb(0, 24, 32);
+  text-align: left;
+  margin: 4px;
+  font-size: 9pt;
+  background-color: rgb(0, 24, 32);
+  padding: 6px;
+  cursor: pointer;
+  color: #00CCFF;
+  }
+
+#links
+  {
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+  border-radius: 15px;
+  border: solid 1px rgb(160, 160, 160);
+  box-shadow: 2px 2px 1px rgb(24, 24, 24);
+  color: rgb(224, 224, 224);
+  margin-bottom: 30px;
+  }
+  
+.icon_row
+  {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.icon_link
+  {
+  width: 48px;
+  height: 48px;
+  background-color: rgb(96, 0, 0);
+  border: solid 1px rgb(96, 0, 0);
+  border-radius: 10px;
+  vertical-align: middle;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 50px;
+  cursor: pointer;
+  }
+  
+.icon_image
+  {
+  margin: auto;
+  vertical-align: middle;
+  }
+
+.content
+  {
+  text-align: justify;
+  background-color: black;
+  padding: 40px;
+  margin-bottom: 15px;
+  font-size: 9pt;//8pt;
+  line-height: 2;
+  overflow: auto;
+  border-radius: 15px;
+  border: solid 1px rgb(160, 160, 160);
+  box-shadow: 2px 2px 1px rgb(24, 24, 24);
+  color: rgb(224, 224, 224);
+  }
+
+div.image_row
+  {
+  text-align: center;
+  }
+
+img.row_item
+  {
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.screenshot_left
+  {
+  float: left;
+  padding-right: 40px;
+  }
+
+.screenshot_right
+  {
+  float: right;
+  padding-left: 40px;
+  }
+
+.right
+  {
+  float: right;
+  }
+  
+.skill_list
+  {
+  display: table;
+  margin-bottom: 50px;
+  }
+
+.skill_column
+  {
+  float: left;
+  padding: 15px;
+  margin-left: 50px;
+  background: #191919;
+  border-radius: 15px;
+  margin-top: 20px;
+  }
+ 
+div.two_panel
+  {
+  display: table;
+  margin-bottom: 40px;
+  }
+
+div.two_panel_last
+  {
+  display: table;
+  }
+
+.left_panel
+  {
+  float: left;
+  margin-right: 40px;
+  }
+
+.right_panel
+  {
+  float: right;
+  margin-left: 40px;
+  }
+  
+.content_text
+  {
+  background: #191919;
+  padding: 15px;
+  border-radius: 15px;
+  display: block;
+  overflow: hidden;
+  }
+
+.center
+  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.header_bar
+  {
+  background-color: #001820;
+  color: #00CCFF;
+  font-family: avenir, sans-serif;
+  font-size: 13pt;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  }
+
+.header
+  {
+  background-color: #001820;
+  color: #00CCFF;
+  font-family: avenir, sans-serif;
+  font-size: 13pt;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  //margin-top: 30px;
+  margin-bottom: 40px;
+  }
+
+.stripe
+  {
+  width: 100%;
+  background-color: #00FFFF;
+  height: 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+td
+  {
+  padding: 15px;
+  background-color: #000000;
+  text-align: justify;
+  }
+
+td.center
+  {
+  text-align: center;
+  }
+
+h1
+  {
+  font-family: avenir, sans-serif;
+  font-size: 13pt;
+  font-weight: 100;
+  color: #00CCFF;
+  }
+
+span.blue
+  {
+  color: #00CCFF;
+  }
+
+span.red
+  {
+  color: rgb(255, 0, 0);
+  }
+
+span.large
+  {
+  font-size: 12pt;
+  font-weight: bold;
+  }
+
+span.title
+  {
+  font-family: avenir, sans-serif;
+  font-size: 24pt;
+  color: #00CCFF;
+  }
+  
+span.red_dot
+  {
+  font-size: 30pt;
+  color: rgb(255, 0, 0);
+  line-height: .3;
+  }
+
+.grid_row
+  {
+  text-align: center;
+  background-color: rgb(32, 32, 32);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  }
+
+.grid_square
+  {
+  display: inline-block;
+  width: 200;
+  height: 200;
+  text-align: center;
+  overflow: hidden;
+  //border: solid 5px rgb(48, 48, 48);
+  vertical-align: top;
+  margin: 10px;
+  }
+
+.grid_image
+  {
+  width: 200px;
+  }
+  
+#login_button
+  {
+  color: rgb(255, 0, 0);
+  background-color: rgb(96, 0, 0);
+  border: none;
+  outline: none;
+  padding: 5px;
+  }
+  
+#login_window
+  {
+  display: none;
+  background-color: #001820;
+  padding: 10px;
+  width: 230px;
+  }
+
+.login_textboxes
+  {
+  float: left;
+  }
+
+.textbox
+  {
+  width: 150px;
+  border: none;//solid 1px #00CCFF;
+  background-color: rgb(0, 48, 64);
+  padding: 2px;
+  color: white;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  }
+
+#login_button2
+  {
+  color: #00CCFF;//rgb(255, 0, 0);
+  background-color: rgb(0, 48, 64);//rgb(96, 0, 0);
+  border: solid 1px #00CCFF;//rgb(255, 0, 0);
+  height: 48px;
+  outline: none;
+  margin-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  
+#post_text
+  {
+  width: 99%;
+  height: 400px;
+  overflow: scroll;
+  }

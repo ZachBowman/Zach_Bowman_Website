@@ -1,0 +1,12 @@
+{
+"name": "Development-Journal",
+"version": "0.0.0",
+"description": "A journal-entry system",
+"author": "Zach Bowman",
+"license": "ISC",
+"devDependencies":
+  {
+  "angular": "1.2.x",
+  "angular-route": "~1.2.x",
+  }
+}
